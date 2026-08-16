@@ -14,3 +14,11 @@ I'm learning Git and version control to track my work.
 - Git tracks changes to files over time
 - Branches let you experiment without affecting the main project
 - You can merge branches back together when ready
+
+
+## Reset
+
+- git reset --soft HEAD~1: undo last commit, keep changes staged
+- git reset --mixed HEAD~1: undo last commit, keep changes in working directory (default)
+- git reset --hard HEAD~1: undo last commit and discard all changes (dangerous!)
+- Only use reset on commits that haven't been pushed
