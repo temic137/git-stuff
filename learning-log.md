@@ -22,3 +22,12 @@ I'm learning Git and version control to track my work.
 - git reset --mixed HEAD~1: undo last commit, keep changes in working directory (default)
 - git reset --hard HEAD~1: undo last commit and discard all changes (dangerous!)
 - Only use reset on commits that haven't been pushed
+
+
+## Bisect
+
+- git bisect start: begin a binary search session
+- git bisect bad: mark current commit as containing the bug
+- git bisect good <ref>: mark a known-good commit
+- Git checks out middle commits; you test and mark good/bad
+- git bisect reset: end the session and return to original HEAD
