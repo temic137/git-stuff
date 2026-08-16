@@ -21,7 +21,7 @@ I'm learning Git and version control to track my work.
 - git reset --soft HEAD~1: undo last commit, keep changes staged
 - git reset --mixed HEAD~1: undo last commit, keep changes in working directory (default)
 - git reset --hard HEAD~1: undo last commit and discard all changes (dangerous!)
-- Only use reset on commits that haven't been pushed
+- Only safely use reset on commits that haven't been pushed
 
 
 ## Bisect
